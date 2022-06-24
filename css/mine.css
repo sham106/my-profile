@@ -1,0 +1,85 @@
+body {
+  background: rgba(241, 243, 245, 0.836);
+  margin: 0;
+}
+
+.navigationbar {
+  background-color: white;
+  padding: 1em;
+  border-width: 2px;
+  text-decoration: none;
+
+  
+}
+.navigationbar .logo {
+  font-weight: bold;
+  color: black;
+  font-size: 1.3em;
+  display: flex;
+
+  }
+  .navigationbar .nav{
+    background-color: lightgreen;
+    
+  }
+  span{
+    color: rgb(18, 115, 241);
+  }
+ 
+  .nav li{
+    display: inline-block;
+    padding: 2em;
+    
+  }
+  .nav a{
+    text-decoration: none;
+    padding: 0.6em;
+    border-radius: 4em;
+    text-align: right;   
+  
+    
+  }
+
+  .nav a:hover{
+    background-color: gray;
+  }
+  .navigationbar-nav {
+   text-align: center;
+  }
+  .About{
+    padding-top: 2em;
+  }
+  .heroo_image{
+    width: 150px;
+    border-radius: 75px;
+  }
+a{
+  color: rgb(56, 53, 206);
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+section{
+  padding: 4em 2em;  
+}
+.heroo{
+  text-align: center;
+}
+.Name{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.features-section{
+  background-color: rgb(37, 34, 34);
+  color: white;
+  
+}
+.about{
+  font-size: 1em;
+  margin-bottom: 2em;
+  -moz-box-align: ;
+}
+
