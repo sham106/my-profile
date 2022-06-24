@@ -80,6 +80,20 @@ section{
 .about{
   font-size: 1em;
   margin-bottom: 2em;
-  -moz-box-align: ;
 }
 
+.right-cont{
+  background-color: rgb(16, 16, 46);
+  display: inline-block;
+  justify-content: 0;
+  align-items: center;
+  border-color: brown;
+  
+
+}
+.center_cont{
+  background-color: rgb(16, 16, 46);
+  display: inline-block;
+  justify-content: 0;
+  
+}
