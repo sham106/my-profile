@@ -1,15 +1,21 @@
+
 body {
   background: rgba(241, 243, 245, 0.836);
   margin: 0;
+  background: linear-gradient(-45deg, white 305, grey 0%);
 }
 
 .navigationbar {
   background-color: white;
-  padding: 1em;
+  /* padding: 1em; */
   border-width: 2px;
   text-decoration: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 9999;
 
-  
 }
 .navigationbar .logo {
   font-weight: bold;
@@ -63,7 +69,7 @@ ul{
   
 }
 section{
-  padding: 4em 2em;  
+  padding: 4em;  
 }
 .heroo{
   text-align: center;
@@ -75,7 +81,7 @@ section{
 .features-section{
   background-color: rgb(37, 34, 34);
   color: white;
-  
+
 }
 .about{
   font-size: 1em;
@@ -84,16 +90,92 @@ section{
 
 .right-cont{
   background-color: rgb(16, 16, 46);
-  display: inline-block;
-  justify-content: 0;
-  align-items: center;
-  border-color: brown;
+  text-align: justify;
+  padding-left: 2em;
+  border-radius: 2em;
+  box-shadow: 2.5rem 3.75rem 3rem;
+  width: 8cm;
+          }
   
-
-}
 .center_cont{
   background-color: rgb(16, 16, 46);
-  display: inline-block;
   justify-content: 0;
+  border-radius: 2em;
+  box-shadow: 2.5rem 3.75rem 3rem;
+  text-align: center;
+  min-height: 200px;
+  text-align: justify;
+  padding-left: 2em;
+  width: 8cm;
   
+}
+.container-skill{
+  display: grid;
+  gap: 2em;
+  grid-template-columns: 50% 50% 50%;
+}
+.skill_tab{
+  color: green;
+  text-decoration: dotted;
+  
+}
+.Hoby_tab{
+  color: green;
+  text-decoration: dotted;
+}
+
+.projects{
+  color: brown;
+  font-size: 2em;
+}
+.contact_section{
+  width: 500px;
+  background-color:#fff;
+  box-shadow: 0 0 20px 0 rgb(190, 53, 53);
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, -70%);
+  margin-top: 8em;
+}
+form{
+  margin: 35px;
+}
+
+.input-field{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+.message-field{
+  height: 150px;
+  padding-top: 10px;
+ border-radius: 1.5em;
+ width: 412px;
+ margin-top: 18px;
+ 
+
+}
+.contact3{
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 1em;
+ 
+}
+   
+
+.btn{
+  border-radius: 20px;
+  color: white;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: rgb(156, 36, 56);
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 18px;
 }

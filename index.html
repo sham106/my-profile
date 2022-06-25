@@ -13,15 +13,16 @@
         <a class="logo"hrer="#">Shambach<span>SS</span></a>
         <nav class="nav navigationbar-nav ">
             <ul>
-                <li><a href="#">Contact</a></li>
+                <li><a href="project-section">Contact</a></li>
                 <li><a href="#">CV</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="about">About</a></li>
             </ul>
         </nav>
     </div>
    </div>
    <section class="heroo">
     <div class="container">
+    </div>
         <h1 class="about">About</h1>
         <div class="center_con">
             <img src="images/profile2.png" class="heroo_image" alt="my profile pic">
@@ -59,9 +60,9 @@
         </div>
     </div>
    </section>
-   <section class="project_area">
-    <div class="container">
-        <p1>Projects</p1>
+   <section id="project-section" class="project_area">
+    <div class="container-project">
+        <p class="projects">Projects</p>
         <div class="first_project">
             <p class="pro-title1">CLI point of sale in python</p>
             <a href="https://github.com/sham106/sprint1">Git Repo</a>
@@ -71,6 +72,34 @@
             <a href="#">Git Repo</a>
         </div>
     </div>
+    <div class="contact_section">
+        
+        <form onsubmit="sendemail(); reset(); return false()" >
+            <h3 class="contact3"> Contact Me<h3>
+            <input type="text" class="input-field" placeholder="Your name">
+            <input type="email" class="input-field" placeholder="Your email">
+            <input type="text" class="input-field" placeholder="subject">
+            <textarea type="text" class="input-field: message-field" placeholder="Your message"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+    </div>
    </section>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+    function sendemail(){
+            Email.send({
+            Host : "smtp.gmail.com",
+            Username : "shamsikush@gmail.com",
+            Password : "38055767@",
+            To : 'shamsikush@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+    }
+   </script>
 </body>
 </html>
