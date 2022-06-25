@@ -2,7 +2,9 @@
 body {
   background: rgba(241, 243, 245, 0.836);
   margin: 0;
-  background: linear-gradient(-45deg, white 305, grey 0%);
+  /* background: linear-gradient(-45deg, white 305, grey 0%); */
+  border: 0px;
+  
 }
 
 .navigationbar {
@@ -11,7 +13,8 @@ body {
   border-width: 2px;
   text-decoration: none;
   /* overflow: hidden; */
-  /* position: fixed; */
+  position: sticky;
+  position: fixed;
   /* top: 0; */
   width: 100%; 
   z-index: 9999;
@@ -53,7 +56,9 @@ body {
    text-align: center;
   }
   .About{
-    padding-top: 0;
+    
+    padding-top: 2em;
+    position: sticky;
 
   }
   .heroo_image{
@@ -74,6 +79,7 @@ section{
 }
 .heroo{
   text-align: center;
+  padding-top: 10em;
 }
 .Name{
   font-weight: bold;
@@ -93,6 +99,7 @@ section{
 }
 
 .right-cont{
+  
   background-color: rgb(16, 16, 46);
   text-align: justify;
   padding-left: 2em;
@@ -111,12 +118,13 @@ section{
   text-align: justify;
   padding-left: 2em;
   width: 8cm;
-  
+  position: sticky;
 }
 .container-skill{
   display: grid;
-  gap: 2em;
+  gap: 20%;
   grid-template-columns: 50% 50% 50%;
+  
 }
 .skill_tab{
   color: green;
