@@ -7,12 +7,12 @@ body {
 
 .navigationbar {
   background-color: white;
-  /* padding: 1em; */
+  padding: 0;
   border-width: 2px;
   text-decoration: none;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
+  /* overflow: hidden; */
+  /* position: fixed; */
+  /* top: 0; */
   width: 100%; 
   z-index: 9999;
 
@@ -53,7 +53,8 @@ body {
    text-align: center;
   }
   .About{
-    padding-top: 2em;
+    padding-top: 0;
+
   }
   .heroo_image{
     width: 150px;
@@ -84,8 +85,11 @@ section{
 
 }
 .about{
-  font-size: 1em;
+  font-size: 2em;
   margin-bottom: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
 }
 
 .right-cont{
@@ -178,4 +182,9 @@ form{
   border: none;
   cursor: pointer;
   margin-bottom: 18px;
+}
+.down_con{
+  font-style:normal;
+  font-size: 1em;
+  
 }
